@@ -1,0 +1,10 @@
+<suite name="DataDrivenSuite" verbose="1" parallel="method" thread-count="5">
+  <test name="DataDrivenTest">
+	  <parameter name="Name" value="Ramesh"/>
+	  <parameter name="School" value="IIT"/>
+	  <parameter name="RollNo" value="101"/>
+    <classes>
+      <class name="testngframework.ParameterTestThroughXML"/>
+    </classes>
+  </test> 
+</suite> 
